@@ -13,6 +13,12 @@ import softwaredevelopment from "../../../public/softwaredevelopment.png";
 import uiux from "../../../public/uiux.png";
 import seooptimization from "../../../public/seooptimization.png";
 import correct from "../../../public/correct.png";
+import Unleashing from "../../../public/Unleashing.png";
+import securingsuccess from "../../../public/securingsuccess.png";
+import beyondborders from "../../../public/beyondborders.png";
+import endexcellence from "../../../public/end-to-endexcellence.png";
+import efficiencyredefined from "../../../public/efficiencyredefined.png";
+import simplifiedcontracts from "../../../public/simplifiedcontracts.png";
 import Image from "next/image";
 const Main = () => {
   return (
@@ -407,7 +413,117 @@ Design
     </div>
 </div>
 
+<div>
+<h1 style={{ fontWeight: "bold", fontSize: "20px" }} className={styles.talent}>
+Stackkaroo’s Talent Hiring & Job Placement Services
+</h1>
+<p className={styles.searching}>We are a talent searching platform that redesigns how companies hire talents. It is a cost-effective solution for industries.<br/> We also provide global job opportunities with good salaries, support, and professional development.</p>
+<div className={styles.Unleashinggroup}>
+<div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={Unleashing}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            Unleashing Top Talent Globally
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          We offer 5% top talents and supports<br/> companies hiring from various time<br/> zones.
+          </p>
+         
+        </div>
+        <div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={securingsuccess}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            Securing Success
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          The company has a 30-day replacement policy and high retention rate due to competitive payouts and strong brand reputation.
+          </p>
+         
+        </div>
+        <div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={securingsuccess}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            Beyond Borders
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          We provide both, flexible full-time and part-time jobs
+          </p>
+         
+        </div>
+        
 
+</div>
+
+<div className={styles.Unleashinggroup}>
+<div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={endexcellence}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            End-to-End Excellence
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          In our hiring process, a job description is shared, matches are reviewed, interviews are conducted, and post-hiring support is provided by us.
+          </p>
+         
+        </div>
+        <div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={efficiencyredefined}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            Efficiency Redefined
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          The platform enables fast hiring without waiting for candidates to reply. We offer affordable alternatives to traditional recruitment methods and provides quality talent.
+          </p>
+         
+        </div>
+        <div className={styles.Unleashing}>
+          <div className={styles.Unleashingimage}>
+            <Image
+              src={simplifiedcontracts}
+              className={styles.Unleashingview}
+              alt="story"
+            />{" "}
+            <p >
+            Simplified Contracts
+Satisfied Partnerships
+            </p>
+          </div>
+          <p className={styles.Unleashingpara}>
+          The contracts are good and satisfy both parties. We save time and money by providing remote onboarding and IT support.
+          </p>
+         
+        </div>
+        
+</div>
+</div>
       
      
     </div>

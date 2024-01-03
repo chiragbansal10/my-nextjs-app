@@ -1,6 +1,6 @@
 .mainContainer {
     background: linear-gradient(90deg, #e7eefe 0%, #fbf3ef 100%);
-    height: 600vh; /* Set minimum height to ensure the gradient covers the entire viewport */
+    height: 700vh; /* Set minimum height to ensure the gradient covers the entire viewport */
     
   }
   .contentContainer{
@@ -226,4 +226,35 @@ align-items: center;
 }
 .seoheading{
   margin-top: 50px;
+}
+.talent{
+  color: #e68f50;
+  margin-left: 250px;
+}
+.searching{
+  margin-left: 90px;
+}
+.Unleashing{
+  width: 300px;
+  height: 250px;
+  border: 1px solid #4faff7;
+background-color: #ffffff;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.Unleashingimage{
+  
+  color: #0a56f1;
+  align-items: center;
+  margin: 20px;
+}
+.Unleashingpara{
+  margin-left: 20px;
+}
+.Unleashinggroup{
+  display: flex;
+}
+.Unleashingview{
+margin-left: 80px;
 }
