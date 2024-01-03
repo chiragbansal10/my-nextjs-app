@@ -1,0 +1,36 @@
+.mainContainer {
+    /* Add any additional styles for the main container */
+  }
+  
+  .contentContainer {
+    display: flex;
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    overflow: hidden;
+    width: 200px;
+  }
+  
+  .textContent {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+  }
+  
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 10px; /* Adjust the border-radius to match the main container */
+    border-bottom-right-radius: 10px;
+  }
+  .bookacall {
+    background-color: #e68f50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,229 @@
+.mainContainer {
+    background: linear-gradient(90deg, #e7eefe 0%, #fbf3ef 100%);
+    height: 600vh; /* Set minimum height to ensure the gradient covers the entire viewport */
+    
+  }
+  .contentContainer{
+    display: flex;
+  
+    padding: 10px;
+    border-radius: 20px; /* Adjust the border-radius to control the oval shape */
+    width: 80vw;
+    margin: 0 70px;
+  }
+  .contentContainer:hover {
+border: 1px solid #27a3ff;
+  }
+  .solution{
+   
+   margin-top: 80px;
+  }
+ 
+  .digital{
+    margin-left: 300px;
+  }
+  /* Home.module.css */
+
+.service {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* Add any additional styling you need for the service items */
+.service > div {
+
+  border: 3px solid #0a56f1; /* Add a border for better visibility */
+  border-radius: 30px;
+  margin-left: 15px;
+  color: #0a56f1;
+  padding: 10px;
+  font-weight: bold;
+  /* Add any other styling you need */
+}
+.showcasing{
+  margin-top: 20px;
+  margin-left: 240px;
+}
+.bookacall{
+  background-color: #e68f50;
+  border: 1px solid #e68f50;
+  border-radius: 30px;
+  width: 30%;
+  height: 13%;
+  margin-top: 30px;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-top: 10px;
+
+  /* margin-left: 50px; */
+}
+.stayahead{
+  color: #e68f50;
+  margin-left: 260px;
+margin-top: 90px;
+}
+.stay{
+  padding-left: 21%;
+}
+.story{
+  color: #0a56f1;
+}
+.project{
+  background-color: #e68f50;
+  border: 1px solid #e68f50;
+  border-radius: 30px;
+  width: 50%;
+  height: 13%;
+  margin-top: 30px;
+  color: #ffffff;
+  padding-left: 40px;
+  padding-top: 10px;
+
+  /* margin-left: 50px; */
+}
+.choose{
+  margin-top: 100px;
+}
+.whychoose{
+  color: #e68f50;
+margin-left: 400px;
+}
+.excel{
+  margin-left: 150px;
+}
+.centric, .customer, .integrating,.high, .product,.threeproduct,.twoproduct{
+display: flex;
+align-items: center;
+}
+.threeproduct{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.twoproduct{
+  margin-left: 210px;
+  margin-top: 50px;
+}
+.centric, .customer, .integrating,.high, .product{
+  border: 1px solid #f5f8fe;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #d9e4fb 0%, #eff1f9 100%);
+  margin-left: 20px;
+  width: 230px;
+  height: 80px;
+}
+.centricimage, .customerimage, .integratingimage,.highimage,.productimage{
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 50px;
+  margin: 20px;
+}
+.centricepara,.customerpara,.integratingpara, .highpara, .productpara{
+  color: #0a56f1;
+}
+.centricimage:hover{
+  border: 3px solid #41adfe;
+}
+.customerimage:hover{
+  border: 3px solid #41adfe;
+}
+.integratingimage:hover{
+  border: 3px solid #41adfe;
+}
+.highimage:hover{
+  border: 3px solid #41adfe;
+}
+.productimage:hover{
+  border: 3px solid #41adfe;
+}
+.stackkaroo{
+  color: #e68f50;
+  margin-left: 290px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.reliability{
+  margin-left: 150px;
+}
+.developement{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+
+  
+}
+.websitedevelopmentimage,.appdevelopmentimage,.softwaredevelopmentimage{
+  display: flex;
+  color: #0a56f1;
+  align-items: center;
+  margin: 20px;
+}
+.websitedevelopmentimage > p{
+  margin-left: 20px;
+
+}
+
+
+
+.appdevelopmentimage  > p{
+  margin-left: 20px;
+}
+.softwaredevelopmentimage > p{
+  margin-left: 20px;
+}
+.websitedevelopment,.appdevelopment,.softwaredevelopment{
+  width: 300px;
+  height: 350px;
+  border: 1px solid;
+  border-image: linear-gradient(to bottom, #3876f4, #cf8961) 1;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+
+.websitedevelopmentpara,.appdevelopmentpara,.softwaredevelopmentpara{
+  margin-left: 40px;
+}
+.arrow{
+  border: 1px solid #e68f50;
+  border-radius: 50%;
+  /* position: absolute; */
+  background-color: #e68f50;
+  color: #e8effc;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.seoservices{
+  color: #e68f50;
+  
+  margin-left: 450px;
+}
+.seo{
+  
+  height: 200px;
+ 
+ 
+  margin-left: 40px;
+}
+
+.seoimage{
+  display: flex;
+  color: #0a56f1;
+  align-items: center;
+  margin-left: 20px;
+}
+.seopara{
+  margin-left: 50px;
+}
+.seodevelopement{
+  margin-left: 50px;
+  display: flex;
+
+}
+.seoheading{
+  margin-top: 50px;
+}
